@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.controls-wrapper-hmo {
+    width: max-content;
+    height: 50px;
+    background-color: #E4E4E4;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 27px 3px;
+    cursor: move;
+}
+
+.controls-main-hmo {
+    background-color: #141414;
+    height: 48px;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer-hmo {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: text;
+}
+
+.recording-hmo {
+    width: 16px;
+    height: 16px;
+}
+
+.vertical-line-hmo {
+    width: 1px;
+    height: 35px;
+    background-color: white;
+}
+
+.controls-item-hmo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.controls-circle-hmo {
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.controls-circle-hmo:hover {
+    background-color: #4B4B4B;
+}
+
+.controls-trash-circle-hmo {
+    background-color: #4B4B4B;
+}
+
+.controls-item-img-hmo {
+    width: 16px;
+    height: 16px;
+}
+
+
+.pause-img-hmo {
+    width: 8px;
+    height: 11px;
+}
+
+.controls-item-text-hmo {
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+    cursor: text;
+}
+
+.camera-container-hmo {
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+.video-camera-hmo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#stop-camera-hmo,
+#stop-mic-hmo {
+    display: none;
+}

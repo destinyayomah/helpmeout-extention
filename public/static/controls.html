@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./controls.css">
+</head>
+
+<body>
+    <div class="controls-wrapper-hmo" id="hmo-recorder-container">
+        <div class="controls-main-hmo">
+            <div class="timer-hmo">00:00:00</div>
+
+            <img class="recording-hmo" src="./images/recording.png" alt="recording-img">
+
+            <div class="vertical-line-hmo"></div>
+
+            <div class="controls-item-hmo">
+                <div class="controls-circle-hmo">
+                    <img class="controls-item-img-hmo pause-img-hmo" src="./images/pause.png" alt="pause-img">
+                </div>
+                <div class="controls-item-text-hmo">Pause</div>
+            </div>
+
+            <div class="controls-item-hmo" id="stop-hmo">
+                <div class="controls-circle-hmo">
+                    <img class="controls-item-img-hmo" src="./images/stop.png" alt="stop-img">
+                </div>
+                <div class="controls-item-text-hmo">Stop</div>
+            </div>
+
+            <div class="controls-item-hmo">
+                <div class="controls-circle-hmo">
+                    <img class="controls-item-img-hmo" src="./images/video-camera.png" alt="camera-img">
+                    <i class="fa fa-chevron-up fa-icon-hmo"></i>
+                </div>
+                <div class="controls-item-text-hmo">Camera</div>
+            </div>
+
+            <div class="controls-item-hmo" style="display: none;">
+                <div class="controls-circle-hmo">
+                    <img class="controls-item-img-hmo" src="./images/video-slash.png" alt="camera-img">
+                    <i class="fa fa-chevron-up fa-icon-hmo"></i>
+                </div>
+                <div class="controls-item-text-hmo">Camera</div>
+            </div>
+
+            <div class="controls-item-hmo">
+                <div class="controls-circle-hmo">
+                    <img class="controls-item-img-hmo" src="./images/microphone.png" alt="microphone-img">
+                    <i class="fa fa-chevron-up fa-icon-hmo"></i>
+                </div>
+                <div class="controls-item-text-hmo">Mic</div>
+            </div>
+
+            <div class="controls-item-hmo">
+                <div class="controls-circle-hmo">
+                    <img class="controls-item-img-hmo" src="./images/mic-off.png" alt="microphone-img">
+                    <i class="fa fa-chevron-up fa-icon-hmo"></i>
+                </div>
+                <div class="controls-item-text-hmo">Mic</div>
+            </div>
+
+            <div class="controls-item-hmo">
+                <div class="controls-circle-hmo controls-trash-circle-hmo">
+                    <img class="controls-item-img-hmo" src="./images/trash.png" alt="trash-img">
+                    <i class="fa fa-chevron-up fa-icon-hmo"></i>
+                </div>
+                <div class="controls-item-text-hmo"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="camera-container-hmo" class="camera-container-hmo">
+        <video class="video-camera-hmo" src="videos/video.mp4" playsinline autoplay></video>
+    </div>
+</body>
+
+</html>
+
+<script>
+    // const recorderControl = document.getElementById('hmo-recorder-container');
+    // const recorderControl = document.querySelector('.controls-wrapper-hmo');
+
+    // const onDrag = ({ movementX, movementY }) => {
+    //     console.log(movementX);
+    //     console.log(movementY);
+    //     const getStyle = window.getComputedStyle(recorderControl);
+    //     const left = parseInt(getStyle.left);
+    //     const top = parseInt(getStyle.top);
+    //     console.log(getStyle.left);
+    //     console.log(getStyle.top);
+    //     recorderControl.style.left = `${left + movementX}px`;
+    //     recorderControl.style.top = `${top + movementY}px`;
+    // }
+
+    // recorderControl.addEventListener('mousedown', () => {
+    //     console.log('movement');
+    //     recorderControl.addEventListener('mousemove', onDrag);
+    // });
+
+    // document.addEventListener('mouseup', () => {
+    //     console.log('owa');
+    //     recorderControl.removeEventListener('mousemove', onDrag);
+    // });
+</script>
+
+<script>
+
+</script>
